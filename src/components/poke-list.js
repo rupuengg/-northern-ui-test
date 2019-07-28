@@ -6,10 +6,6 @@ import Pagination from '../services/pagination';
 const API_URL = "https://pokeapi.co/api/v2/pokemon/ditto/";
 
 class PokeList extends React.Component {
-    // const PokeList = () => {
-    // const[pokes, setPokes] = useContext(PokeContext);
-    // console.log(pokes);
-
     constructor(props) {
         super(props);
 
